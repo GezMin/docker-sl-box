@@ -6,20 +6,7 @@
 
 После клонирования репозитория с Git нужно дополнительно добавить папку `certbot` с двумя вложенными папками и получить следующую структуру:
 
-data
-│
-├── certbot
-│ ├── conf
-│ └── www
-│
-├── nginx
-│ └── app.conf
-│
-public
-│ └── (index.html файлы вашего сайта)
-│
-docker-compose.yml
-init-letsencrypt.sh
+![Структура папок](https://github.com/GezMin/docker-sl-box/blob/master/image_structure.png?raw=true)
 
 ### 2. Изменение файла `init-letsencrypt.sh`
 
